@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="fifo_top_delay" Register="58" Alu="13" Lut="97" Bsram="9" Ssram="8" T_Register="58(58)" T_Alu="13(13)" T_Lut="97(97)" T_Bsram="9(9)" T_Ssram="8(8)"/>

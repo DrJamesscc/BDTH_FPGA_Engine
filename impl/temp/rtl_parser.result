@@ -1,0 +1,632 @@
+[
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/Matrix_Ke..rd.v",
+  "InstLine" : 22,
+  "InstName" : "Matrix_Keyboard",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/Matrix_Ke..rd.v",
+  "ModuleLine" : 22,
+  "ModuleName" : "Matrix_Keyboard"
+ },
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/top.v",
+    "InstLine" : 16,
+    "InstName" : "PLL",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_pll/gowin_pll.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "Gowin_PLL",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_pll/gowin_pll.v",
+      "InstLine" : 23,
+      "InstName" : "u_pll",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_pll/gowin_pll_mod.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_PLL_MOD"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_pll/gowin_pll.v",
+      "InstLine" : 37,
+      "InstName" : "u_pll_init",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/pll_init.v",
+      "ModuleLine" : 4,
+      "ModuleName" : "PLL_INIT"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/top.v",
+    "InstLine" : 23,
+    "InstName" : "u_keyboard",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/Keyboard.v",
+    "ModuleLine" : 22,
+    "ModuleName" : "Keyboard"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/top.v",
+    "InstLine" : 64,
+    "InstName" : "sin_C",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_C.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "DDS_sin_C",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_C.v",
+      "InstLine" : 86,
+      "InstName" : "sin_C",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom/gowin_prom_sin_C4.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_sin_C4"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_C.v",
+      "InstLine" : 95,
+      "InstName" : "square_C",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_square/gowin_prom_square.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_square"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_C.v",
+      "InstLine" : 104,
+      "InstName" : "saw_rev_C",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_saw_rev/gowin_prom_saw_rev.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_saw_rev"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/top.v",
+    "InstLine" : 77,
+    "InstName" : "sin_Csh",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_Csh.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "DDS_sin_Csh",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_Csh.v",
+      "InstLine" : 86,
+      "InstName" : "sin_Csh",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom/gowin_prom_sin_C4.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_sin_C4"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_Csh.v",
+      "InstLine" : 95,
+      "InstName" : "square_Csh",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_square/gowin_prom_square.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_square"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_Csh.v",
+      "InstLine" : 104,
+      "InstName" : "saw_rev_Csh",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_saw_rev/gowin_prom_saw_rev.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_saw_rev"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/top.v",
+    "InstLine" : 90,
+    "InstName" : "sin_D",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_D.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "DDS_sin_D",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_D.v",
+      "InstLine" : 88,
+      "InstName" : "sin_D",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom/gowin_prom_sin_C4.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_sin_C4"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_D.v",
+      "InstLine" : 97,
+      "InstName" : "square_D",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_square/gowin_prom_square.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_square"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_D.v",
+      "InstLine" : 106,
+      "InstName" : "saw_rev_D",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_saw_rev/gowin_prom_saw_rev.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_saw_rev"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/top.v",
+    "InstLine" : 103,
+    "InstName" : "sin_Dsh",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_Dsh.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "DDS_sin_Dsh",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_Dsh.v",
+      "InstLine" : 86,
+      "InstName" : "sin_Dsh",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom/gowin_prom_sin_C4.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_sin_C4"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_Dsh.v",
+      "InstLine" : 95,
+      "InstName" : "square_Dsh",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_square/gowin_prom_square.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_square"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_Dsh.v",
+      "InstLine" : 104,
+      "InstName" : "saw_rev_Dsh",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_saw_rev/gowin_prom_saw_rev.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_saw_rev"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/top.v",
+    "InstLine" : 116,
+    "InstName" : "sin_E",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_E.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "DDS_sin_E",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_E.v",
+      "InstLine" : 86,
+      "InstName" : "sin_E",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom/gowin_prom_sin_C4.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_sin_C4"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_E.v",
+      "InstLine" : 95,
+      "InstName" : "square_E",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_square/gowin_prom_square.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_square"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_E.v",
+      "InstLine" : 104,
+      "InstName" : "saw_rev_E",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_saw_rev/gowin_prom_saw_rev.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_saw_rev"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/top.v",
+    "InstLine" : 129,
+    "InstName" : "sin_F",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_F.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "DDS_sin_F",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_F.v",
+      "InstLine" : 86,
+      "InstName" : "sin_F",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom/gowin_prom_sin_C4.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_sin_C4"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_F.v",
+      "InstLine" : 95,
+      "InstName" : "square_F",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_square/gowin_prom_square.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_square"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_F.v",
+      "InstLine" : 104,
+      "InstName" : "saw_rev_F",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_saw_rev/gowin_prom_saw_rev.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_saw_rev"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/top.v",
+    "InstLine" : 142,
+    "InstName" : "sin_Fsh",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_Fsh.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "DDS_sin_Fsh",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_Fsh.v",
+      "InstLine" : 86,
+      "InstName" : "sin_Fsh",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom/gowin_prom_sin_C4.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_sin_C4"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_Fsh.v",
+      "InstLine" : 95,
+      "InstName" : "square_Fsh",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_square/gowin_prom_square.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_square"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_Fsh.v",
+      "InstLine" : 104,
+      "InstName" : "saw_rev_Fsh",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_saw_rev/gowin_prom_saw_rev.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_saw_rev"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/top.v",
+    "InstLine" : 155,
+    "InstName" : "sin_G",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_G.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "DDS_sin_G",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_G.v",
+      "InstLine" : 86,
+      "InstName" : "sin_G",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom/gowin_prom_sin_C4.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_sin_C4"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_G.v",
+      "InstLine" : 95,
+      "InstName" : "square_G",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_square/gowin_prom_square.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_square"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_G.v",
+      "InstLine" : 104,
+      "InstName" : "saw_rev_G",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_saw_rev/gowin_prom_saw_rev.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_saw_rev"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/top.v",
+    "InstLine" : 168,
+    "InstName" : "sin_Gsh",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_Gsh.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "DDS_sin_Gsh",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_Gsh.v",
+      "InstLine" : 86,
+      "InstName" : "sin_Gsh",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom/gowin_prom_sin_C4.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_sin_C4"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_Gsh.v",
+      "InstLine" : 95,
+      "InstName" : "square_Gsh",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_square/gowin_prom_square.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_square"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_Gsh.v",
+      "InstLine" : 104,
+      "InstName" : "saw_rev_Gsh",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_saw_rev/gowin_prom_saw_rev.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_saw_rev"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/top.v",
+    "InstLine" : 181,
+    "InstName" : "sin_A",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_A.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "DDS_sin_A",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_A.v",
+      "InstLine" : 85,
+      "InstName" : "sin_A",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom/gowin_prom_sin_C4.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_sin_C4"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_A.v",
+      "InstLine" : 94,
+      "InstName" : "square_A",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_square/gowin_prom_square.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_square"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_A.v",
+      "InstLine" : 103,
+      "InstName" : "saw_rev_A",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_saw_rev/gowin_prom_saw_rev.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_saw_rev"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/top.v",
+    "InstLine" : 193,
+    "InstName" : "sin_Ash",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_Ash.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "DDS_sin_Ash",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_Ash.v",
+      "InstLine" : 86,
+      "InstName" : "sin_Ash",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom/gowin_prom_sin_C4.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_sin_C4"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_Ash.v",
+      "InstLine" : 95,
+      "InstName" : "square_Ash",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_square/gowin_prom_square.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_square"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_Ash.v",
+      "InstLine" : 104,
+      "InstName" : "saw_rev_Ash",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_saw_rev/gowin_prom_saw_rev.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_saw_rev"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/top.v",
+    "InstLine" : 206,
+    "InstName" : "sin_B",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_B.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "DDS_sin_B",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_B.v",
+      "InstLine" : 86,
+      "InstName" : "sin_B",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom/gowin_prom_sin_C4.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_sin_C4"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_B.v",
+      "InstLine" : 95,
+      "InstName" : "square_B",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_square/gowin_prom_square.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_square"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_B.v",
+      "InstLine" : 104,
+      "InstName" : "saw_rev_B",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_saw_rev/gowin_prom_saw_rev.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_pROM_saw_rev"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/top.v",
+    "InstLine" : 221,
+    "InstName" : "u_chord_C",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/chord.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "chord",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/chord.v",
+      "InstLine" : 19,
+      "InstName" : "sin_C",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_C.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "DDS_sin_C",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_C.v",
+        "InstLine" : 86,
+        "InstName" : "sin_C",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom/gowin_prom_sin_C4.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "Gowin_pROM_sin_C4"
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_C.v",
+        "InstLine" : 95,
+        "InstName" : "square_C",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_square/gowin_prom_square.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "Gowin_pROM_square"
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_C.v",
+        "InstLine" : 104,
+        "InstName" : "saw_rev_C",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_saw_rev/gowin_prom_saw_rev.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "Gowin_pROM_saw_rev"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/chord.v",
+      "InstLine" : 31,
+      "InstName" : "sin_E",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_E.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "DDS_sin_E",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_E.v",
+        "InstLine" : 86,
+        "InstName" : "sin_E",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom/gowin_prom_sin_C4.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "Gowin_pROM_sin_C4"
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_E.v",
+        "InstLine" : 95,
+        "InstName" : "square_E",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_square/gowin_prom_square.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "Gowin_pROM_square"
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_E.v",
+        "InstLine" : 104,
+        "InstName" : "saw_rev_E",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_saw_rev/gowin_prom_saw_rev.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "Gowin_pROM_saw_rev"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/chord.v",
+      "InstLine" : 43,
+      "InstName" : "sin_G",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_G.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "DDS_sin_G",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_G.v",
+        "InstLine" : 86,
+        "InstName" : "sin_G",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom/gowin_prom_sin_C4.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "Gowin_pROM_sin_C4"
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_G.v",
+        "InstLine" : 95,
+        "InstName" : "square_G",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_square/gowin_prom_square.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "Gowin_pROM_square"
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/DDS_sin_G.v",
+        "InstLine" : 104,
+        "InstName" : "saw_rev_G",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_saw_rev/gowin_prom_saw_rev.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "Gowin_pROM_saw_rev"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/top.v",
+    "InstLine" : 302,
+    "InstName" : "adsr",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/ADSR.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "ADSR"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/top.v",
+    "InstLine" : 311,
+    "InstName" : "overdrive",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/overdrive.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "overdrive"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/top.v",
+    "InstLine" : 324,
+    "InstName" : "delay",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/audio_delay.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "audio_delay",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/audio_delay.v",
+      "InstLine" : 21,
+      "InstName" : "delay",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/fifo_sc_top_delay/fifo_sc_top_delay.v",
+      "ModuleLine" : 12,
+      "ModuleName" : "fifo_sc_top_delay"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/top.v",
+    "InstLine" : 333,
+    "InstName" : "u_fir_inst",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/audio_filter.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "fir"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/top.v",
+    "InstLine" : 344,
+    "InstName" : "audio_dac_inst",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/pwm_dac.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "pwm_dac"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_tri/gowin_prom_tri.v",
+  "InstLine" : 10,
+  "InstName" : "Gowin_pROM_tri",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/BDTH_FPGA_Engine/src/gowin_prom_tri/gowin_prom_tri.v",
+  "ModuleLine" : 10,
+  "ModuleName" : "Gowin_pROM_tri"
+ }
+]

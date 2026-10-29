@@ -1,0 +1,33 @@
+Reading netlist file: "C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\impl\gwsynthesis\BDTH_FPGA_Engine.vg"
+Parsing netlist file "C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\impl\gwsynthesis\BDTH_FPGA_Engine.vg" completed
+Processing netlist completed
+Reading constraint file: "C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\BDTH_FPGA_Engine.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1132) :  'n350_11' was determined to be a clock but was not created.
+WARN  (TA1132) :  'u_keyboard/cnt[10]' was determined to be a clock but was not created.
+WARN  (TA1132) :  'u_keyboard/n140_10' was determined to be a clock but was not created.
+WARN  (TA1132) :  'clk_48k' was determined to be a clock but was not created.
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\impl\pnr\BDTH_FPGA_Engine.power.html" completed
+Generate file "C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\impl\pnr\BDTH_FPGA_Engine.pin.html" completed
+Generate file "C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\impl\pnr\BDTH_FPGA_Engine.rpt.html" completed
+Generate file "C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\impl\pnr\BDTH_FPGA_Engine.rpt.txt" completed
+Generate file "C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\impl\pnr\BDTH_FPGA_Engine.tr.html" completed
+Wed Oct 28 01:59:20 2026
+

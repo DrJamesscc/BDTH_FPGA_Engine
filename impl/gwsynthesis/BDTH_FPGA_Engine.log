@@ -1,0 +1,130 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\ADSR.v'
+WARN  (EX3792) : Literal value 'd4 truncated to fit in 2 bits("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\ADSR.v":14)
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\audio_delay.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\audio_filter.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\chord.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_A.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_Ash.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_B.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_C.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_Csh.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_D.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_Dsh.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_E.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_F.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_Fsh.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_G.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_Gsh.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\Keyboard.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\Matrix_Ke..rd.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\overdrive.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\pll_init.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\pwm_dac.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v'
+Undeclared symbol 'clk_pwm', assumed default net type 'wire'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":19)
+Undeclared symbol 'key_value', assumed default net type 'wire'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":28)
+WARN  (EX3638) : 'key_value' is already implicitly declared on line 28("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":30)
+Undeclared symbol 'key_reg', assumed default net type 'wire'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":72)
+Undeclared symbol 'note_en_C', assumed default net type 'wire'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":73)
+Undeclared symbol 'note_en_Csh', assumed default net type 'wire'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":86)
+Undeclared symbol 'note_en_D', assumed default net type 'wire'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":99)
+Undeclared symbol 'note_en_Dsh', assumed default net type 'wire'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":112)
+Undeclared symbol 'note_en_E', assumed default net type 'wire'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":125)
+Undeclared symbol 'note_en_F', assumed default net type 'wire'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":138)
+Undeclared symbol 'note_en_Fsh', assumed default net type 'wire'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":151)
+Undeclared symbol 'note_en_G', assumed default net type 'wire'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":164)
+Undeclared symbol 'note_en_Gsh', assumed default net type 'wire'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":177)
+Undeclared symbol 'note_en_A', assumed default net type 'wire'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":189)
+Undeclared symbol 'note_en_Ash', assumed default net type 'wire'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":202)
+Undeclared symbol 'note_en_B', assumed default net type 'wire'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":215)
+WARN  (EX3638) : 'note_en_C' is already implicitly declared on line 73("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":233)
+WARN  (EX3638) : 'note_en_Csh' is already implicitly declared on line 86("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":233)
+WARN  (EX3638) : 'note_en_D' is already implicitly declared on line 99("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":233)
+WARN  (EX3638) : 'note_en_Dsh' is already implicitly declared on line 112("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":233)
+WARN  (EX3638) : 'note_en_E' is already implicitly declared on line 125("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":234)
+WARN  (EX3638) : 'note_en_F' is already implicitly declared on line 138("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":234)
+WARN  (EX3638) : 'note_en_Fsh' is already implicitly declared on line 151("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":234)
+WARN  (EX3638) : 'note_en_G' is already implicitly declared on line 164("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":234)
+WARN  (EX3638) : 'note_en_Gsh' is already implicitly declared on line 177("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":235)
+WARN  (EX3638) : 'note_en_A' is already implicitly declared on line 189("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":235)
+WARN  (EX3638) : 'note_en_Ash' is already implicitly declared on line 202("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":235)
+WARN  (EX3638) : 'note_en_B' is already implicitly declared on line 215("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":235)
+WARN  (EX3638) : 'key_reg' is already implicitly declared on line 72("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":239)
+Undeclared symbol 'ADSR_in', assumed default net type 'wire'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":291)
+WARN  (EX3638) : 'ADSR_in' is already implicitly declared on line 291("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":300)
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\fifo_sc_top_delay\fifo_sc_top_delay.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\fifo_sc_top_delay2\fifo_sc_top_delay2.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\fifo_sc_top_mix\fifo_sc_top_mix.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\gowin_pll\gowin_pll.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\gowin_pll\gowin_pll_mod.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\gowin_prom\gowin_prom_sin_C4.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\gowin_prom_saw_rev\gowin_prom_saw_rev.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\gowin_prom_square\gowin_prom_square.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\gowin_prom_tri\gowin_prom_tri.v'
+Compiling module 'top'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":1)
+Compiling module 'Gowin_PLL'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\gowin_pll\gowin_pll.v":1)
+Compiling module 'Gowin_PLL_MOD'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\gowin_pll\gowin_pll_mod.v":10)
+Compiling module 'PLL_INIT(MULTI_FAC=14)'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\pll_init.v":4)
+Compiling module 'Keyboard'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\Keyboard.v":22)
+WARN  (EX2420) : Latch inferred for net 'next_state[5]'; We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\Keyboard.v":104)
+Compiling module 'DDS_sin_C'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_C.v":1)
+Compiling module 'Gowin_pROM_sin_C4'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\gowin_prom\gowin_prom_sin_C4.v":10)
+Compiling module 'Gowin_pROM_square'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\gowin_prom_square\gowin_prom_square.v":10)
+Compiling module 'Gowin_pROM_saw_rev'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\gowin_prom_saw_rev\gowin_prom_saw_rev.v":10)
+Compiling module 'DDS_sin_Csh'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_Csh.v":1)
+Compiling module 'DDS_sin_D'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_D.v":1)
+Compiling module 'DDS_sin_Dsh'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_Dsh.v":1)
+Compiling module 'DDS_sin_E'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_E.v":1)
+Compiling module 'DDS_sin_F'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_F.v":1)
+Compiling module 'DDS_sin_Fsh'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_Fsh.v":1)
+Compiling module 'DDS_sin_G'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_G.v":1)
+Compiling module 'DDS_sin_Gsh'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_Gsh.v":1)
+Compiling module 'DDS_sin_A'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_A.v":1)
+Compiling module 'DDS_sin_Ash'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_Ash.v":1)
+Compiling module 'DDS_sin_B'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_B.v":1)
+Compiling module 'chord'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\chord.v":1)
+WARN  (EX2420) : Latch inferred for net 'note_en_chordC'; We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":275)
+Compiling module 'ADSR'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\ADSR.v":2)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\ADSR.v":42)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\ADSR.v":53)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\ADSR.v":66)
+WARN  (EX3791) : Expression size 18 truncated to fit in target size 16("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\ADSR.v":80)
+WARN  (EX3670) : Actual bit length 17 differs from formal bit length 16 for port 'dds_data'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":306)
+WARN  (EX3670) : Actual bit length 17 differs from formal bit length 16 for port 'ADSR_out'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":307)
+Compiling module 'overdrive'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\overdrive.v":1)
+WARN  (EX3791) : Expression size 22 truncated to fit in target size 17("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\overdrive.v":23)
+Compiling module 'audio_delay'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\audio_delay.v":1)
+Compiling module '**'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\fifo_sc_top_delay\fifo_sc_top_delay.v":424)
+WARN  (EX1998) : Net 'full_flag2' does not have a driver("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\audio_delay.v":16)
+Compiling module 'fir'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\audio_filter.v":1)
+Compiling module 'pwm_dac'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\pwm_dac.v":2)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+WARN  (DI0003) : Latch inferred for net 'note_en_chordC';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v":275)
+WARN  (DI0003) : Latch inferred for net 'next_state[5]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\Keyboard.v":104)
+WARN  (DI0003) : Latch inferred for net 'next_state[4]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\Keyboard.v":104)
+WARN  (DI0003) : Latch inferred for net 'next_state[3]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\Keyboard.v":104)
+WARN  (DI0003) : Latch inferred for net 'next_state[2]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\Keyboard.v":104)
+WARN  (DI0003) : Latch inferred for net 'next_state[1]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\Keyboard.v":104)
+WARN  (DI0003) : Latch inferred for net 'next_state[0]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\Keyboard.v":104)
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "PLL_INIT" instantiated to "u_pll_init" is swept in optimizing("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\gowin_pll\gowin_pll.v":52)
+[95%] Generate netlist file "C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\impl\gwsynthesis\BDTH_FPGA_Engine.vg" completed
+[100%] Generate report file "C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\impl\gwsynthesis\BDTH_FPGA_Engine_syn.rpt.html" completed
+GowinSynthesis finish

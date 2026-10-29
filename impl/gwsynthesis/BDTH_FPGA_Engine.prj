@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5A-25B" package="MBGA121N" speed="1" partNumber="GW5A-LV25MG121NC1/I0"/>
+    <FileList>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\ADSR.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\audio_delay.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\audio_filter.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\chord.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_A.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_Ash.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_B.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_C.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_Csh.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_D.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_Dsh.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_E.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_F.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_Fsh.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_G.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\DDS_sin_Gsh.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\Keyboard.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\Matrix_Ke..rd.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\overdrive.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\pll_init.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\pwm_dac.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\top.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\fifo_sc_top_delay\fifo_sc_top_delay.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\fifo_sc_top_delay2\fifo_sc_top_delay2.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\fifo_sc_top_mix\fifo_sc_top_mix.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\gowin_pll\gowin_pll.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\gowin_pll\gowin_pll_mod.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\gowin_prom\gowin_prom_sin_C4.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\gowin_prom_saw_rev\gowin_prom_saw_rev.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\gowin_prom_square\gowin_prom_square.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\src\gowin_prom_tri\gowin_prom_tri.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="100.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\BDTH_FPGA_Engine\impl\gwsynthesis\BDTH_FPGA_Engine.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="top_module" value="top"/>
+        <Option type="vcc" value="0.9"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

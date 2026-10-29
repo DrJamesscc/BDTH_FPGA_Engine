@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5A-25B" package="MBGA121N" speed="1" partNumber="GW5A-LV25MG121NC1/I0"/>
+    <FileList>
+        <File path="C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/TP25k project4/src/fifo_sc_top_mix/temp/FIFO_SC/fifo_sc_define.v" type="verilog"/>
+        <File path="C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/TP25k project4/src/fifo_sc_top_mix/temp/FIFO_SC/fifo_sc_parameter.v" type="verilog"/>
+        <File path="C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/ipcore/FIFO_SC/data/edc_sc.v" type="verilog"/>
+        <File path="C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/ipcore/FIFO_SC/data/fifo_sc.v" type="verilog"/>
+        <File path="C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/ipcore/FIFO_SC/data/fifo_sc_top.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="output_file" value="fifo_sc_top_mix.vg"/>
+        <Option type="output_template" value="fifo_sc_top_mix_tmp.v"/>
+        <Option type="ram_balance" value="1"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="vcc" value="0.9"/>
+        <Option type="vccx" value="3.3"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+    </OptionList>
+</Project>

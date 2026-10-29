@@ -1,0 +1,41 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5A-25B" pn="GW5A-LV25MG121NC1/I0">gw5a25b-003</Device>
+    <FileList>
+        <File path="src/ADSR.v" type="file.verilog" enable="1"/>
+        <File path="src/DDS_sin_A.v" type="file.verilog" enable="1"/>
+        <File path="src/DDS_sin_Ash.v" type="file.verilog" enable="1"/>
+        <File path="src/DDS_sin_B.v" type="file.verilog" enable="1"/>
+        <File path="src/DDS_sin_C.v" type="file.verilog" enable="1"/>
+        <File path="src/DDS_sin_Csh.v" type="file.verilog" enable="1"/>
+        <File path="src/DDS_sin_D.v" type="file.verilog" enable="1"/>
+        <File path="src/DDS_sin_Dsh.v" type="file.verilog" enable="1"/>
+        <File path="src/DDS_sin_E.v" type="file.verilog" enable="1"/>
+        <File path="src/DDS_sin_F.v" type="file.verilog" enable="1"/>
+        <File path="src/DDS_sin_Fsh.v" type="file.verilog" enable="1"/>
+        <File path="src/DDS_sin_G.v" type="file.verilog" enable="1"/>
+        <File path="src/DDS_sin_Gsh.v" type="file.verilog" enable="1"/>
+        <File path="src/Keyboard.v" type="file.verilog" enable="1"/>
+        <File path="src/Matrix_Ke..rd.v" type="file.verilog" enable="1"/>
+        <File path="src/audio_delay.v" type="file.verilog" enable="1"/>
+        <File path="src/audio_filter.v" type="file.verilog" enable="1"/>
+        <File path="src/chord.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_sc_top_delay/fifo_sc_top_delay.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_sc_top_delay2/fifo_sc_top_delay2.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_sc_top_mix/fifo_sc_top_mix.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pll/gowin_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pll/gowin_pll_mod.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_prom/gowin_prom_sin_C4.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_prom_saw_rev/gowin_prom_saw_rev.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_prom_square/gowin_prom_square.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_prom_tri/gowin_prom_tri.v" type="file.verilog" enable="1"/>
+        <File path="src/overdrive.v" type="file.verilog" enable="1"/>
+        <File path="src/pll_init.v" type="file.verilog" enable="1"/>
+        <File path="src/pwm_dac.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/BDTH_FPGA_Engine.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
